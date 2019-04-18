@@ -1,5 +1,5 @@
 /**
- * Created by dell on 2016/12/23.
+ * Created by lizhen on 2016/12/23.
  */
 function createMusic(left, top, element) {
     this.voice = 0.75;
@@ -29,7 +29,7 @@ createMusic.prototype = {
             + '<i class="iconfont icon-yinle"></i>'
             + '        <div class="music-author"> '
             + '<i class="iconfont icon-tanhao"></i> '
-            + '<i class="author">create by<br>65-liulu</i>'
+            + '<i class="author">create by<br>lizhen</i>'
             + ' </div>'
             + '<h2 class="music-name"></h2>'
             + '<p class="singer-name"></p>'
@@ -349,4 +349,3 @@ createMusic.prototype = {
 };
 
 
-var musicFm = new createMusic(30, 160, $('#music-fm'));
